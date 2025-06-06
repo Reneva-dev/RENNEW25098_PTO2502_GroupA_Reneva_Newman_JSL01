@@ -18,3 +18,37 @@ main > div > div:last-child > div {
 main > div > div:last-child > div:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+
+h4 {
+  color: #333333; /* dark grey */
+  position: relative;
+  padding-left: 20px; /* space for the circle */
+  font-weight: 600;
+}
+
+/* Circle before each h4 */
+h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #3498db; /* default color: blue */
+}
+
+/* Optional: different colors for each heading using nth-of-type */
+main > div:nth-of-type(1) h4::before {
+  background-color: #278aae; /* red for TODO */
+}
+
+main > div:nth-of-type(2) h4::before {
+  background-color: rgb(190, 99, 190); /* orange for DOING */
+}
+
+main > div:nth-of-type(3) h4::before {
+  background-color: #27ae60; /* green for DONE */
+}
+

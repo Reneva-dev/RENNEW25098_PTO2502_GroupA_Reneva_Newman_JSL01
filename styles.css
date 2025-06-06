@@ -49,23 +49,23 @@ h4::before {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 12px;
-  height: 12px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #3498db; /* default color: blue */
 }
 
 /* Optional: different colors for each heading using nth-of-type */
 main > div:nth-of-type(1) h4::before {
-  background-color: #278aae; /* red for TODO */
+  background-color: #278aae; 
 }
 
 main > div:nth-of-type(2) h4::before {
-  background-color: rgb(190, 99, 190); /* orange for DOING */
+  background-color: rgb(190, 99, 190); 
 }
 
 main > div:nth-of-type(3) h4::before {
-  background-color: #27ae60; /* green for DONE */
+  background-color: #27ae60; 
 }
 
 .top-bar {

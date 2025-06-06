@@ -25,8 +25,8 @@ main > div > div:last-child > div {
   box-sizing: border-box;  
   margin: 8px 0;
   margin-right: 80px;
-  width: 420px;             /* Width */
-  height: 60px;             /* Height */
+  width: 520px;             /* Width */
+  height: 90px;             /* Height */
   border-radius: 8px;
   font-size: 1.1rem;
   font-weight: bold;   

@@ -27,7 +27,9 @@ main > div > div:last-child > div {
   margin-right: 80px;
   width: 320px;             /* Width */
   height: 60px;             /* Height */
-  border-radius: 8px;  
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;   
 }
 
 

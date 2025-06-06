@@ -8,11 +8,12 @@ main > div > div:last-child > div {
   background-color: white;
   border-radius: 12px;
   padding: 12px 16px;
-  margin: 8px 0;
+  margin: 8px auto;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   cursor: pointer; /* optional, makes it feel clickable */
   transition: box-shadow 0.2s ease;
   font-size: 1rem;
+  width: 200px;
 }
 
 main > div > div:last-child > div:hover {

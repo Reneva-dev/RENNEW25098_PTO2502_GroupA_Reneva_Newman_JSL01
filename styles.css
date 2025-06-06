@@ -20,7 +20,7 @@ main > div > div:last-child > div:hover {
 }
 
 h4 {
-  color: #333333; /* dark grey */
+  color: #666666; /* dark grey */
   position: relative;
   padding-left: 20px; /* space for the circle */
   font-weight: 600;

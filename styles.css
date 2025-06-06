@@ -52,9 +52,21 @@ main > div:nth-of-type(3) h4::before {
   background-color: #27ae60; /* green for DONE */
 }
 
-.logo-light {
-  width: 100%;
-  height: auto;      
-  display: block;     
+.top-bar {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* optional shadow */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
+
+.top-logo {
+  height: 40px;      /* adjust based on your design */
+  width: auto;
+}
+
 

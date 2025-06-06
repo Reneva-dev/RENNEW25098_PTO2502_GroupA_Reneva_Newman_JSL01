@@ -13,7 +13,7 @@ main > div > div:last-child > div {
   cursor: pointer; /* optional, makes it feel clickable */
   transition: box-shadow 0.2s ease;
   font-size: 1rem;
-  width: 200px;
+  width: 400px;
 }
 
 main > div > div:last-child > div:hover {

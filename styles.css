@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: PlusJakartaSans, sans-serif;
   background-color: #e4ebfa; /* light blue */
 }
 
@@ -39,7 +39,7 @@ h4 {
   padding-left: 20px; 
   font-weight: 600;
   margin-left: 40px;
-  font-size: 1.1rem;
+  font-size: 2.1rem;
 }
 
 /* Circle before each h4 */

@@ -36,8 +36,8 @@ main > div > div:last-child > div {
 h4 {
   color: #a8a4ff; 
   position: relative;
-  padding-left: 20px; 
-  font-weight: 400;
+  padding-left: 30px; 
+  font-weight: 500;
   margin-left: 40px;
   font-size: 2.1rem;
 }

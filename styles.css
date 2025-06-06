@@ -10,6 +10,7 @@ main > div > div:last-child {
   align-items: flex-start;  /* center the task boxes horizontally */
   width: 100%;          /* ensure full width for centering */
   box-sizing: border-box;
+  margin-left: 40px;
 }
 
 /* Style task boxes */

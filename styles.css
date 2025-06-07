@@ -259,3 +259,52 @@ main > div:nth-of-type(3) h4::before {
   }
 }
 
+/* =============================
+   Fixes for Small & Medium Phones
+============================= */
+@media (max-width: 374px) {
+  .top-bar {
+    width: 100vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  }
+
+  main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .task-column > div:last-child {
+    margin-left: 0;
+  }
+
+  .task-column > div:last-child > div {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .top-bar {
+    width: 100vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  }
+
+  main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .task-column > div:last-child {
+    margin-left: 0;
+  }
+
+  .task-column > div:last-child > div {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+

@@ -123,13 +123,17 @@ main > div:nth-of-type(3) h4::before {
     background-color: #635fc7;
     border-top-right-radius: 12px;
     color: white;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: bold;
   }
 
   .sidebar p {
     font-size: 1.2rem;
     line-height: 1.5;
-    color: #666666;
+    color: #828fa3;
     margin-bottom: 1.5rem;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: semi-bold;
   }
 }
 

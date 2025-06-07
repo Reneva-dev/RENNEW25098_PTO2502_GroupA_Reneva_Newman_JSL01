@@ -117,7 +117,7 @@ main > div:nth-of-type(3) h4::before {
 
   @media (min-width: 1024px) {
   .sidebar h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 1rem;
     background-color: #635fc7;
@@ -125,7 +125,8 @@ main > div:nth-of-type(3) h4::before {
     border-bottom-right-radius: 12px;
     color: white;
     font-family: PlusJakartaSans, sans-serif;
-    font-weight: bold;
+    text-align: center;
+
   }
 
   .sidebar p {
@@ -169,12 +170,6 @@ main > div:nth-of-type(3) h4::before {
 @media (min-width: 1024px) {
   .desktop-only {
     display: block;
-  }
-
-  /* Optional: Hide top-bar on desktop if only the sidebar is needed */
-  /* Remove this block if you want to keep the top bar on desktop */
-  .top-bar {
-    display: none;
   }
 }
 

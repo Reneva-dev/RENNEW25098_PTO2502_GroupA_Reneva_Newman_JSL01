@@ -87,7 +87,7 @@ body {
     color: white;
     text-align: center;
     padding: 0.5rem 1rem;
-    margin-left: 0;         /* flush to the left */
+    margin-left: 0;         
   }
 
   .sidebar p {
@@ -129,20 +129,20 @@ main {
 
 .task-column > div:last-child > div {
   background-color: white;
-  padding: 10px 12px;      /* reduced padding for compactness */
+  padding: 10px 12px;      
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: box-shadow 0.2s ease;
   text-align: left;
   margin: 8px 0;
-  margin-right: 0;          /* removed extra right margin */
-  width: 280px;             /* updated width */
-  height: 60px;             /* updated height */
+  margin-right: 0;          
+  width: 280px;             
+  height: 60px;             
   border-radius: 8px;
   font-size: 1.2rem;        /* smaller font size to fit height */
   font-weight: bold;
   display: flex;
-  align-items: center;      /* vertically center text inside */
+  align-items: center;      
 }
 
 
@@ -152,11 +152,12 @@ main {
 h4 {
   color: #a8a4ff;
   position: relative;
-  padding-left: 40px;
-  margin-left: 40px;
+  padding-left: 30px;   /* Slight padding for circle space */
+  margin-left: 0;       
   font-size: 1.1rem;
-  font-weight: semi-bold;
+  font-weight: 600;     
 }
+
 
 h4::before {
   content: '';

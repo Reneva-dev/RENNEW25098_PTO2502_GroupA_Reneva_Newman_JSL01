@@ -115,6 +115,25 @@ main > div:nth-of-type(3) h4::before {
     height: 100vh;
   }
 
+  @media (min-width: 1024px) {
+  .sidebar h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    background-color: #635fc7;
+    border-top-right-radius: 12px;
+    color: white;
+  }
+
+  .sidebar p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #666666;
+    margin-bottom: 1.5rem;
+  }
+}
+
+
   .main-content {
     flex: 1;
     padding: 2rem;

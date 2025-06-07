@@ -308,3 +308,15 @@ main > div:nth-of-type(3) h4::before {
   }
 }
 
+@media (max-width: 424px) {
+  .top-logo {
+    height: 50px;
+  }
+}
+
+@media (max-width: 359px) {
+  .top-logo {
+    height: 45px;
+  }
+}
+

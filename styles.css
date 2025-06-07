@@ -102,6 +102,13 @@ main > div:nth-of-type(3) h4::before { background-color: #27ae60; }
     border-right: 1px solid #ccc;
   }
 
+  .sidebar img,
+.sidebar p {
+  display: block;
+  margin: 0 auto 1rem auto;
+  text-align: center;
+}
+
   /* ✅ Logo inside sidebar */
   .sidebar .top-logo {
     height: 50px;     /* Adjust as needed */

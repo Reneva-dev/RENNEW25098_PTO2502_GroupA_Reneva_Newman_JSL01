@@ -377,7 +377,7 @@ main > div:nth-of-type(3) h4::before {
   .task-column > div:last-child > div {
     margin-right: 0;     /* Ensure no margin on the right */
     margin-left: 0;      /* Ensure no unintended left margin */
-    width: 380px;        /* Optional: slightly reduce width if needed */
+    width: 360px;        /* Optional: slightly reduce width if needed */
   }
 
   h4 {

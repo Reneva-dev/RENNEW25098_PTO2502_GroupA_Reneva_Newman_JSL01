@@ -127,5 +127,31 @@ main > div:nth-of-type(3) h4::before {
   }
 }
 
+/* Utility classes to toggle logo visibility */
+.mobile-only,
+.desktop-only {
+  display: none;
+}
+
+/* Show logo in top bar only on mobile */
+@media (max-width: 1023px) {
+  .mobile-only {
+    display: block;
+  }
+}
+
+/* Show logo in sidebar only on desktop */
+@media (min-width: 1024px) {
+  .desktop-only {
+    display: block;
+  }
+
+  /* Optional: Hide top-bar on desktop if only the sidebar is needed */
+  /* Remove this block if you want to keep the top bar on desktop */
+  .top-bar {
+    display: none;
+  }
+}
+
 
 

@@ -129,19 +129,22 @@ main {
 
 .task-column > div:last-child > div {
   background-color: white;
-  padding: 12px 16px;
+  padding: 10px 12px;      /* reduced padding for compactness */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: box-shadow 0.2s ease;
   text-align: left;
   margin: 8px 0;
-  margin-right: 80px;
-  width: 720px;
-  height: 100px;
+  margin-right: 0;          /* removed extra right margin */
+  width: 280px;             /* updated width */
+  height: 60px;             /* updated height */
   border-radius: 8px;
-  font-size: 2.1rem;
+  font-size: 1.2rem;        /* smaller font size to fit height */
   font-weight: bold;
+  display: flex;
+  align-items: center;      /* vertically center text inside */
 }
+
 
 /* =============================
    Headings & Circle Badges

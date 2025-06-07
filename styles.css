@@ -344,15 +344,14 @@ main > div:nth-of-type(3) h4::before {
   }
 }
 
+
 @media (min-width: 425px) and (max-width: 767px) {
-  main {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  .task-column > div:last-child {
+    margin-left: 0; /* Remove excess left margin */
   }
 
   .task-column > div:last-child > div {
-    width: 95%;     /* Slightly narrower than full width */
-    margin-right: 0;
+    width: 100%; /* Ensure task cards fill available space */
   }
 }
 

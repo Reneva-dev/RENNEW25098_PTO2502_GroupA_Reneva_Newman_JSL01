@@ -152,6 +152,7 @@ h4 {
   padding-left: 30px;
   margin-left: 40px;
   font-size: 2.1rem;
+  font-weight: normal;
 }
 
 h4::before {

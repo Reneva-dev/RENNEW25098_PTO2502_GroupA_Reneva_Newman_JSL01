@@ -81,7 +81,7 @@ main > div:nth-of-type(3) h4::before {
 }
 
 .top-logo {
-  height: 60px;      /* adjust based on your design */
+  height: 80px;      /* adjust based on your design */
   width: auto;
 }
 

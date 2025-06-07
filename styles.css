@@ -36,6 +36,12 @@ body {
   width: auto;
 }
 
+.top-bar-text {
+  font-family: 'PlusJakartaSans', sans-serif; 
+  font-size: 1.4rem; 
+  font-weight: 600;  
+}
+
 /* =============================
    Sidebar (Desktop Only)
 ============================= */

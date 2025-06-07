@@ -191,3 +191,10 @@ main > div:nth-of-type(3) h4::before {
     display: block;
   }
 }
+
+@media (min-width: 1024px) {
+  .app-container {
+    display: flex;
+    flex-direction: row;
+  }
+}

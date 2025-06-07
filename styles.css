@@ -98,7 +98,7 @@ main > div:nth-of-type(3) h4::before { background-color: #27ae60; }
     flex-shrink: 0;
     height: 100vh;
     background-color: #fff;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 2rem 0;
     border-right: 1px solid #ccc;
   }
 
